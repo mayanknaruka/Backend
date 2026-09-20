@@ -13,6 +13,9 @@ app.get('/', (req, res) => {
 app.get('/twitter', (req, res) => {
     res.send('mayankji')
 } )
+app.get('/github', (req, res) => {
+    res.send('respone done')
+} )
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`);
